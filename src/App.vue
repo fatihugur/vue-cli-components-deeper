@@ -11,6 +11,7 @@
         :phone-number="friend.phone"
         :email-address="friend.email"
         :is-favorite="friend.isFavorite"
+        @toggle-favorite="toggleFavoriteStatus"
       ></friend-contact>
     </ul>
   </section>
@@ -37,6 +38,11 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    toggleFavoriteStatus() {
+      alert("This works!");
+    },
   },
 };
 </script>
