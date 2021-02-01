@@ -40,6 +40,7 @@ export default {
       ],
     };
   },
+
   methods: {
     toggleFavoriteStatus(friendId) {
       const identifiedFriend = this.friends.find(
