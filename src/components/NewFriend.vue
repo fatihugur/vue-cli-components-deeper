@@ -17,4 +17,6 @@
     </div>
   </form>
 </template>
-<script></script>
+<script>
+export default {};
+</script>
